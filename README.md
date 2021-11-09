@@ -5,7 +5,7 @@ create folder `uploads`: this folder will store all image upload to your server
 
 run this command to start cdn server
 
-`php -S YouServer`
+`php -S YourServer`
 
 send request to upload your image (example in file test.php)
 
