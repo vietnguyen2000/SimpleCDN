@@ -9,7 +9,7 @@ function uploadImage($file)
     // Check if image file is a actual image or fake image
     try {
         $check = getimagesize($file["tmp_name"]);
-    } catch (error) {
+    } catch (Error $error) {
         $message = "File is not an image";
         $uploadOk = 1;
     }
